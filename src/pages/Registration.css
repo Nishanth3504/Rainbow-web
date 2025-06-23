@@ -1,0 +1,27 @@
+.mainBox
+{
+    box-shadow: 0 4px 15px rgba(0, 13, 68, 0.1);
+    padding: 36px 40px 40px;
+    border-radius: 20px;
+    margin-top: 4%;
+}
+.mainBox h1{
+    color: #000d44;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Merriweather";
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.form-group select {
+    padding: 10px 15px;
+    background-image: url(../../public/img/down-arrow-1.svg);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-position: calc(100% - 18px) 50%;
+}
