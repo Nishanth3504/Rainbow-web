@@ -5,6 +5,8 @@ import LoginOtp from './pages/LoginOtp';
 import { Routes, Route } from "react-router-dom";
 import Registration from './pages/Registration';
 
+
+
 function App() {
   return (
     // <div className="App">

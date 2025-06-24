@@ -7,6 +7,7 @@ import {registration} from "../pages/LoginValidation";
 import { useNavigate } from "react-router-dom";
 
 
+
 const initialValues1 = {
   name: "",
   title: "",
@@ -19,8 +20,9 @@ const initialValues1 = {
   pincode: ""
 }
 function Registration() {
+    // const { logout } = useAuth();
  const navigate = useNavigate();
-    const { values, errors, touched, handleBlur, handleChange, handleSubmit } = useFormik({
+    const { values, errors, handleBlur, handleChange, handleSubmit } = useFormik({
             initialValues: initialValues1,
             validationSchema: registration,
             onSubmit: (values) => {
